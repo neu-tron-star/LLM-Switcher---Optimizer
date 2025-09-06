@@ -138,41 +138,49 @@ LLM-Router is organized into modular components for easy extensibility and maint
 
 ```
 
-API Optimization and Benchmarking
+## API Optimization and Benchmarking
 A product designed to help companies select the most efficient and cost-effective API models for various tasks by providing detailed benchmarking and recommendations.
 
-License 📄
+---
+
+## License 📄
+
 MIT License. Free to use, modify, and distribute.
 
-Contributing 🤝
-Want to contribute to this project? We'd love your help!
+---
 
-Fork the repository.
+## Contributing 🤝
 
-Create your feature branch: git checkout -b feature/MyFeature.
+Want to contribute to this project? We'd love your help!  
 
-Commit your changes: git commit -m 'Add some feature'.
+1. Fork the repository.  
+2. Create your feature branch:  
+   ```bash
+   git checkout -b feature/MyFeature
 
-Push to the branch: git push origin feature/MyFeature.
+3. Commit your changes
+   ```bash
+   git commit -m 'Add some feature'
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/MyFeature
+   ```
+5. Open a Pull Request.
 
-Open a Pull Request.
+## Acknowledgements 🙏
 
-Acknowledgements 🙏
 This project is made possible by the incredible work of the teams behind these models and platforms:
 
-OpenAI – for their APIs
+- [OpenAI](https://openai.com/) – for their APIs
+- [Google Gemini](https://developers.generativeai.google/) 
+- [Mistral AI](https://www.mistral.ai/)
+- [Groq LLMs](https://www.groq.com/)
 
-Google Gemini
+## Project Status ✅
 
-Mistral AI
+- ✅ Basic multi-LLM routing implemented
+- ✅ Task-based cost optimization
+- ✅ Image & text task support
+- ⚠️ Video & advanced streaming support coming soon
 
-Groq LLMs
-
-Project Status ✅
-✅ Basic multi-LLM routing implemented
-
-✅ Task-based cost optimization
-
-✅ Image & text task support
-
-⚠️ Video & advanced streaming support coming soon
