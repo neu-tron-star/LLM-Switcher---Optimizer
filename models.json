@@ -1,0 +1,90 @@
+[
+  {
+    "provider": "gemini",
+    "model": "gemini-1.5-flash",
+    "price_per_1k_tokens": 0.0,
+    "free_limit_tokens": 100000,
+    "benchmark_score": 90,
+    "tasks": ["small", "medium", "text-generation"]
+  },
+  {
+    "provider": "gemini",
+    "model": "gemini-2.5-flash",
+    "price_per_1k_tokens": 0.0,
+    "free_limit_tokens": 100000,
+    "benchmark_score": 70,
+    "tasks": ["small", "text-generation"]
+  },
+  {
+    "provider": "gemini",
+    "model": "gemini-2.0-flash",
+    "price_per_1k_tokens": 0.001,
+    "free_limit_tokens": 50000,
+    "benchmark_score": 85,
+    "tasks": ["medium", "text-generation"]
+  },
+  {
+    "provider": "groq",
+    "model": "llama-3.1-8b-instant",
+    "price_per_1k_tokens": 0.005,
+    "free_limit_tokens": 0,
+    "benchmark_score": 90,
+    "tasks": ["medium", "text-generation"]
+  },
+  {
+    "provider": "groq",
+    "model": "llama-3.3-70b-versatile",
+    "price_per_1k_tokens": 0.01,
+    "free_limit_tokens": 0,
+    "benchmark_score": 95,
+    "tasks": ["heavy", "code-generation"]
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-small-2503",
+    "price_per_1k_tokens": 0.02,
+    "free_limit_tokens": 0,
+    "benchmark_score": 85,
+    "tasks": ["small", "text-generation"]
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-large-2411",
+    "price_per_1k_tokens": 0.05,
+    "free_limit_tokens": 0,
+    "benchmark_score": 95,
+    "tasks": ["heavy", "code-generation"]
+  },
+  {
+    "provider": "mistral",
+    "model": "codestral-2501",
+    "price_per_1k_tokens": 0.04,
+    "free_limit_tokens": 0,
+    "benchmark_score": 98,
+    "tasks": ["code-generation"]
+  },
+  {
+    "provider": "openai",
+    "model": "gpt-4-32k",
+    "price_per_1k_tokens": 0.06,
+    "free_limit_tokens": 0,
+    "benchmark_score": 100,
+    "tasks": ["heavy", "calculation", "text-generation", "code-generation", "image", "video"]
+  },
+  {
+    "provider": "openai",
+    "model": "gpt-4-8k",
+    "price_per_1k_tokens": 0.03,
+    "free_limit_tokens": 0,
+    "benchmark_score": 95,
+    "tasks": ["heavy", "text-generation", "code-generation"]
+  },
+  {
+    "provider": "openai",
+    "model": "gpt-3.5-turbo",
+    "price_per_1k_tokens": 0.002,
+    "free_limit_tokens": 0,
+    "benchmark_score": 80,
+    "tasks": ["small", "medium", "text-generation", "code-generation"]
+  }
+]
